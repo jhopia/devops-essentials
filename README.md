@@ -7,7 +7,8 @@ AWS CodePipeline (along with other AWS Developer Tools such as AWS CodeCommit, A
 # Launch Stack
 To launch the first solution (i.e. a static website to S3), you'll need to specify a unique S3 bucket name for the website bucket that will be created along with a GitHub token. Review and ensure you've configured the [Prerequisites](https://github.com/stelligent/devops-essentials/wiki/Prerequisites) before launching the stack below.
 
-[![Launch CFN stack](https://s3.amazonaws.com/www.devopsessentialsaws.com/img/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#cstack=sn%7Edevops-essentials-static%7Cturl%7Ehttps://s3.amazonaws.com/www.devopsessentialsaws.com/samples/static/pipeline.yml) 
+[![Launch CFN stack](https://s3.amazonaws.com/www.devopsessentialsaws.com/img/deploy-to-aws.png)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#cstack=sn%7Edevops-essentials-static%7Cturl%7Ehttps://s3.amazonaws.com/www.devopsessentialsaws.com/samples/static/pipeline.yml) [![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjhopia%2Fdevops-essentials.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjhopia%2Fdevops-essentials?ref=badge_shield)
+
 
 The CloudFormation template is available [here](https://s3.amazonaws.com/www.devopsessentialsaws.com/samples/static/pipeline.yml).
 
@@ -15,3 +16,7 @@ The CloudFormation template is available [here](https://s3.amazonaws.com/www.dev
 In the course, there are over seven DevOps on AWS solutions you can launch at the click of a button. To learn more, go to [Samples](https://github.com/stelligent/devops-essentials/tree/master/samples). 
 
 Here's the [DevOps Essentials on AWS Complete Video Course website](http://www.devopsessentialsaws.com/).
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjhopia%2Fdevops-essentials.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjhopia%2Fdevops-essentials?ref=badge_large)
